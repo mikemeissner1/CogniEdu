@@ -149,7 +149,7 @@ Managing one's schedule effectively can often prove to be challenging. Ed sends 
 </p> 
 
 # 📊  Implementation Evaluation <a name="Implementation-Evaluation"></a>                                             
-In selection of the model powering Ed, two models were compared, two of Google's Large Language Models were compared, Gemini 1.5 Pro and Gemini 1.5 Flash, using LangChain and AI. 
+In selection of the model powering Ed, two models were compared, two of Google's Large Language Models were compared, Gemini 1.5 Pro and Gemini 1.5 Flash, using LangChain and AI​. Once Gemini 1.5 Flash was selected, its performance was further evaluated.
 
 <img width="850" alt="Model Evaluation Dashboard" src="https://github.com/user-attachments/assets/fb66f99f-85d7-4743-8c61-a6093967a596">
 
