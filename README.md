@@ -250,7 +250,7 @@ Now it's time to give CogniEdu a chance!
 
 # 👤 Acknowledgements/About Us <a name="Acknowledgements"></a>                                                
   <p align="left">
-  <img width="100" alt="ConvoCraftersLogo.png" src="https://github.com/user-attachments/assets/8c75cc2e-36fe-4c82-87d5-6e6dac10bef6">
+  <img width="100" alt="ConvoCraftersLogo.png" src="https://github.com/user-attachments/assets/c3efbbe6-892e-4d4c-8400-e3cab4b1dfd9">
 
   Roselyn Rozario  ([@roselynrozario](https://github.com/roselynrozario))  
   Adela Cho  ([@Adelach0](https://github.com/Adelach0))  
