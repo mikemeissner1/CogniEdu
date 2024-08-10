@@ -88,7 +88,7 @@ Upon user signup, the onboarding questionnaire populates the User table in MySQL
 <img width="400" alt="Calendar Sync Overview" src="https://github.com/user-attachments/assets/e418f9e5-2097-46da-8a15-bf9c5570982d">
 </p> 
 
-The calendar sync involves an initial import of the student's full calendar, while the continuous sync regularly updates every X number of minutes. The sync also stores events and handles NEW, UPDATED, and DELETED items chunked and embedded for future retrieval, per a logic. 
+The calendar sync involves an initial import of the student's full calendar, while the continuous sync regularly updates every X number of minutes. The sync also stores events and handles NEW, UPDATED, and DELETED items, per a logic. 
 
 <h5 align="center"> Calendar Sync Logic </h5>
 
@@ -153,9 +153,9 @@ In selection of the model powering Ed, two models were compared, two of Google's
 
 <img width="850" alt="Model Evaluation Dashboard" src="https://github.com/user-attachments/assets/fb66f99f-85d7-4743-8c61-a6093967a596">
 
-Model Selection: [Click Here](https://github.com/Foroughmo/CogniEdu/tree/main/6_Model_Selection)
+> Model Selection: [Click Here](https://github.com/Foroughmo/CogniEdu/tree/main/6_Model_Selection)
 
-Model Evaluation: [Click Here](https://github.com/Foroughmo/CogniEdu/tree/main/7_Model_Evaluation)
+> Model Evaluation: [Click Here](https://github.com/Foroughmo/CogniEdu/tree/main/7_Model_Evaluation)
 
 # [📱 Streamlit Built User Interface](https://github.com/Foroughmo/CogniEdu/tree/main/8_Streamlit) <a name="Streamlit"></a>                                             
 CogniEdu utilizes Streamlit alongside custom CSS to develop an intuitive user interface, ensuring a cohesive user experience. The development involved leveraging Cloud Run and NGROK to facilitate seamless deployment and testing of the application in a scalable and secure environment.
@@ -171,7 +171,7 @@ CogniEdu can be broken down into two process flows:
 1. New Students: New students will complete an onboarding process to set up their profile with CogniEdu and integrate their accounts for information extraction. After this, they will be able to access their optimized calendar and converse with Ed.
 2. Returning Students: Returning students do not need to undergo the onboarding process. Once they input their credentials, they will be able to view their optimized calendar and converse with Ed.
    
-Detailed Overview of CogniEdu: [Click Here](https://github.com/Foroughmo/CogniEdu/blob/main/8_Streamlit/App_Overview/app.md)
+> Detailed Overview of CogniEdu: [Click Here](https://github.com/Foroughmo/CogniEdu/blob/main/8_Streamlit/App_Overview/app.md)
 
 ### Home Page <a name="Home-Page"></a>
   <p align="center">
