@@ -81,7 +81,7 @@ Each student undergoes an onboarding experience that integrates their calendar a
 </p>
 
 ### [🗄️ Database Management with SQL](https://github.com/Foroughmo/CogniEdu/tree/main/1_SQL_Database) <a name="Database"></a> 
-Upon user signup, the onboarding questionnaire populates the User table in MySQL. By integrating with the student's Google account, the application continuously syncs their Google Calendar event data with the MySQL database. 
+Upon user signup, the onboarding questionnaire populates the `User` table in MySQL. By integrating with the student's Google account, the application continuously syncs their Google Calendar event data with the MySQL database. 
 
 <h5 align="center"> Calendar Sync Overview </h5>
 <p align="center">
