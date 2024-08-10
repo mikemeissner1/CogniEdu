@@ -3,8 +3,10 @@ CogniEdu can be broken down into two process flows:
 1. New Students: New students will complete an onboarding process to set up their profile with CogniEdu and integrate their accounts for information extraction. After this, they will be able to access their optimized calendar and converse with Ed.
 2. Returning Students: Returning students do not need to undergo the onboarding process. Once they input their credentials, they will be able to view their optimized calendar and converse with Ed.
 
+https://github.com/user-attachments/assets/7f5999bb-6809-43cd-9757-807c4d87f55f
+
 ---
-### Landing Page <a name="Landing-Page"></a>
+### [Landing Page](https://github.com/Foroughmo/CogniEdu/blob/main/8_Streamlit/app.py) <a name="Landing-Page"></a>
 <p align="center">
 <img width="600" alt="Screenshot 2024-08-06 at 5 33 39 PM" src="https://github.com/user-attachments/assets/8a641e3c-eef9-4013-9361-4b0c196f917d">
 
@@ -13,13 +15,13 @@ The Landing Page directs new students to "Register Here" and returning students 
 ---
 ### New Student Registration <a name="New-Student-Registration"></a>
 
-##### Register Here Page <a name="Register Here Page"></a>
+##### [Register Here Page](https://github.com/Foroughmo/CogniEdu/blob/main/8_Streamlit/pages/1_Registration_Page.py) <a name="Register Here Page"></a>
 <p align="center">
 <img width="600" alt="Screenshot 2024-08-06 at 5 34 00 PM" src="https://github.com/user-attachments/assets/c4d90504-edbc-41a0-9a49-2296ba546e65">
 
 New students are directed to input their email address, full name, and password to create a new account.
 
-##### Integration Page <a name="Integration-Page"></a>
+##### [Integration Page](https://github.com/Foroughmo/CogniEdu/blob/main/8_Streamlit/pages/2_Integration_Page.py) <a name="Integration-Page"></a>
 <p align="center">
 <img width="600" alt="Screenshot 2024-08-06 at 5 34 47 PM" src="https://github.com/user-attachments/assets/0f7558ba-d2c6-4fbe-bb2b-3d18d648d596">
 
@@ -31,7 +33,7 @@ Integration with external accounts are meant to occur in this page. New students
 
 New students are shown a pop up of Ed introducing himself as the personal AI Chatbot assistant.
 
-##### Questionnaire Page <a name="Questionnaire-Page"></a>
+##### [Questionnaire Page](https://github.com/Foroughmo/CogniEdu/blob/main/8_Streamlit/pages/3_Onboarding_Page.py) <a name="Questionnaire-Page"></a>
 <p align="center">
 <img width="600" alt="Screenshot 2024-08-06 at 5 35 22 PM" src="https://github.com/user-attachments/assets/570b88d5-ddd7-4804-8e12-32c7650f6443">
 
@@ -40,7 +42,7 @@ Ed directs students to tailor their experience with CogniEdu! This is where stud
 ---
 ### Returning Student Log-In <a name="Returning-Student Log-In"></a>
 
-##### Log-in Page <a name="Log-in Page"></a>
+##### [Log-in Page](https://github.com/Foroughmo/CogniEdu/blob/main/8_Streamlit/pages/4_LogIn_Page.py) <a name="Log-in Page"></a>
 <p align="center">
 <img width="600" alt="Screenshot 2024-08-06 at 5 34 23 PM" src="https://github.com/user-attachments/assets/0da13a59-da53-46b6-9bd1-a887e3fe3229">
 
@@ -53,7 +55,7 @@ Returning students are directed to input their email address and password to log
 Returning students are shown a pop up welcoming them back to CogniEdu. 
 
 ---
-### Home Page <a name="Home-Page"></a>
+### [Home Page](https://github.com/Foroughmo/CogniEdu/blob/main/8_Streamlit/pages/5_Home.py) <a name="Home-Page"></a>
   <p align="center">
   <img width="600" alt="ConvoCraftersLogo.png" src="https://github.com/user-attachments/assets/a4d75f09-b690-4da2-a92a-2194cbd59da5">
 
@@ -62,7 +64,7 @@ The Home Page includes the optimized calendar, a dedicated section for Ed, the s
 * Upcoming events show the next 3 events, as well as relevant details pertaining to them.
 * Ed is located below to direct the student to utilize his AI Chatbot assistance.*
 
-### Calendar Page <a name="Calendar-Page"></a> 
+### [Calendar Page](https://github.com/Foroughmo/CogniEdu/blob/main/8_Streamlit/pages/6_Calendar.py) <a name="Calendar-Page"></a> 
   <p align="center">
   <img width="600" alt="Cal 4" src="https://github.com/user-attachments/assets/8a19a5b7-7bfe-4e1f-abea-ab90f0242319">
 
@@ -71,8 +73,14 @@ The Calendar Page is the student's dedicated space to view a full week's optimiz
 * Navy: Classes from Google Classroom
 * Pink: Ed's Optimizer Events
 
-### Ed, AI Chatbot Page <a name="Ed-AI-Chatbot-Page"></a> 
+### [Ed, AI Chatbot Page](https://github.com/Foroughmo/CogniEdu/blob/main/8_Streamlit/pages/7_Chatbot.py) <a name="Ed-AI-Chatbot-Page"></a> 
   <p align="center">
   <img width="600" alt="Ed 2" src="https://github.com/user-attachments/assets/ec3c4fe4-14d5-44c2-ab5f-a4cbb709f131">
 
 The Ed, AI Chatbot Page allows for conversation pertaining to the student's course materials and their calendar. Recommended questions are provided to assist the student in making queries to Ed.
+
+### Email Notification <a name="Email-Notification"></a>
+  <p align="center">
+  <img width="285" alt="Email Notification" src="https://github.com/user-attachments/assets/faa04e5c-37fa-4410-a174-3d16d5392558">
+
+An email notification is sent each time the student's optimized calendar is generated.
