@@ -64,10 +64,10 @@ CogniEdu simplifies the planning process by creating an optimized schedule tailo
 # **🧠  Overview of CogniEdu** <a name="Overview"></a>
 
 ### Project Diagram <a name="Project-Diagram"></a>
-<img width="785" alt="Process Flow" src="https://github.com/user-attachments/assets/619dee8c-ef0a-494f-9755-826eba91cd2e">
+<img width="785" alt="Process Flow" src="0_Documents/Assets/ProcessFlow.png">
 
 ### Front-End <a name="Front-End"></a>
-<img width="785" alt="Front-End" src="https://github.com/user-attachments/assets/4a3baec3-f092-4bb4-85d3-fffd2568ab9f">
+<img width="785" alt="Front-End" src="0_Documents/Assets/Front-End.png">
 
 
 # 🧩 Project Components <a name="Project-Components"></a>
@@ -77,7 +77,7 @@ Each student undergoes an onboarding experience that integrates their calendar a
 
 <h5 align="center"> Onboarding </h5>
 <p align="center">
-<img width="485" alt="Onboarding" src="https://github.com/user-attachments/assets/881a35f2-f323-4dc0-9331-21047dae264a">
+<img width="485" alt="Onboarding" src="0_Documents/Assets/Onboarding.png">
 </p>
 
 ### [🗄️ Database Management with SQL](https://github.com/Foroughmo/CogniEdu/tree/main/1_SQL_Database) <a name="Database"></a> 
@@ -85,7 +85,7 @@ Upon user signup, the onboarding questionnaire populates the `User` table in MyS
 
 <h5 align="center"> Calendar Sync Overview </h5>
 <p align="center">
-<img width="400" alt="Calendar Sync Overview" src="https://github.com/user-attachments/assets/e418f9e5-2097-46da-8a15-bf9c5570982d">
+<img width="400" alt="Calendar Sync Overview" src="0_Documents/Assets/CalendarSyncOverview.png">
 </p> 
 
 The calendar sync involves an initial import of the student's full calendar, while the continuous sync regularly updates every X number of minutes. The sync also stores events and handles NEW, UPDATED, and DELETED items, per a logic. 
@@ -93,7 +93,7 @@ The calendar sync involves an initial import of the student's full calendar, whi
 <h5 align="center"> Calendar Sync Logic </h5>
 
 <p align="center">
-<img width="400" alt="Calendar Sync Overview" src="https://github.com/user-attachments/assets/69833ef1-ab3f-4bb3-8258-1be97508510e">
+<img width="400" alt="Calendar Sync Logic" src="0_Documents/Assets/CalendarSync.png">
 </p> 
 
 The MySQL database also houses assignment information, such as due dates and instructions, which is extracted from Google Classroom, and then transformed, before being loaded into said database. The RAG (Retrieval-Augmented Generation) application then leverages this comprehensive data set to provide personalized and optimized solutions.                                                
@@ -109,7 +109,7 @@ Based on the assignment's content and its assigned difficulty level, the LLM est
 
 <h5 align="center"> Time Estimation LLM </h5>
 <p align="center">
-<img width="700" alt="Time Estimation LLM" src="https://github.com/user-attachments/assets/15c2e554-d316-45a9-ab1c-8f2e4fac1416">
+<img width="700" alt="Time Estimation LLM" src="0_Documents/Assets/TimeEstimationLLM.png">
 </p> 
 
 ### [🗓️ Optimized Scheduling via Heuristics and LLM Prompting](https://github.com/Foroughmo/CogniEdu/tree/main/3_Optimizer) <a name="Optimizing"></a> 
@@ -117,7 +117,7 @@ Leveraging Gemini’s advanced reasoning capabilities, our application generates
 
 <h5 align="center"> Optimizer Algorithm </h5>
 <p align="center">
-<img width="700" alt="Optimizer" src="https://github.com/user-attachments/assets/fc7f1e59-e9be-41ea-ac6c-8cdfbc0a3014">
+<img width="700" alt="Optimizer" src="0_Documents/Assets/Optimizer.png">
 </p> 
                                            
 ### [💬 Ed: Our Conversational AI Agent](https://github.com/Foroughmo/CogniEdu/tree/main/4_Chatbot) <a name="Ed"></a> 
@@ -131,14 +131,14 @@ CogniEdu's chatbot, Ed, is built on the ReAct (Reasoning and Acting) paradigm, l
 
 <h5 align="center"> ReAct Framework </h5>
 <p align="center">
-<img width="267" alt="ReAct Framework" src="https://github.com/user-attachments/assets/4fb2feec-ee06-4b08-adfd-99872d1d76db">
+<img width="267" alt="ReAct Framework" src="0_Documents/Assets/ReActFramework.png">
 </p> 
 
 Ed processes user queries through an iterative cycle of reasoning (using a Large Language Model) and acting (employing these specialized tools). This ReAct architecture allows the agent to break down complex queries, determine the most appropriate tools to use, and synthesize information from multiple sources. By integrating these functionalities, students can seamlessly query their course resources, manage their schedules, and access relevant external content through natural language conversations. Ed also has the capability to answer follow up questions from the student by determining if the query is a follow up or not. The LangGraph framework enables Ed to maintain context and make informed decisions throughout these interactions, enhancing the overall user experience and academic support.
 
 <h5 align="center"> Ed's Pipeline </h5>
 <p align="center">
-<img width="700" alt="Ed's Pipeline" src="https://github.com/user-attachments/assets/957b6b9b-9a18-414d-ba60-9caf8d9a9ec4">
+<img width="700" alt="Ed's Pipeline" src="0_Documents/Assets/EdPipeline.png">
 </p> 
 
 ### [🔔 Proactive Alerts for On Task Management](https://github.com/Foroughmo/CogniEdu/tree/main/5_Email_Notification) <a name="Notifications"></a> 
@@ -151,7 +151,7 @@ Managing one's schedule effectively can often prove to be challenging. Ed sends 
 # 📊  Implementation Evaluation <a name="Implementation-Evaluation"></a>                                             
 In selection of the model powering Ed, two models were compared, two of Google's Large Language Models were compared, Gemini 1.5 Pro and Gemini 1.5 Flash, using LangChain and AI​. Once Gemini 1.5 Flash was selected, its performance was further evaluated.
 
-<img width="850" alt="Model Evaluation Dashboard" src="https://github.com/user-attachments/assets/fb66f99f-85d7-4743-8c61-a6093967a596">
+<img width="850" alt="Model Evaluation Dashboard" src="0_Documents/Assets/ModelEvaluation.png">
 
 > Model Selection: [Click Here](https://github.com/Foroughmo/CogniEdu/tree/main/6_Model_Selection)
 
@@ -221,7 +221,7 @@ CogniEdu addresses a significant market need for academic planning and organizat
 5. **Scale Features:** Each Component Can Be Scaled to Accommodate More Students and Plan for Longer Time-Periods​​ 
 
 ### Next Steps Timeline <a name="Next-Steps"></a>
-<img width="650" alt="Next Steps" src="https://github.com/user-attachments/assets/2314411f-1da3-4179-a681-36ea29817c71">
+<img width="650" alt="Next Steps" src="0_Documents/Assets/NextSteps.png">
 
 # 🔚 Conclusion <a name="Conclusion"></a>
 <p align="center">
@@ -250,7 +250,7 @@ Now it's time to give CogniEdu a chance!
 
 # 👤 Acknowledgements/About Us <a name="Acknowledgements"></a>                                                
   <p align="left">
-  <img width="100" alt="ConvoCraftersLogo.png" src="https://github.com/user-attachments/assets/c3efbbe6-892e-4d4c-8400-e3cab4b1dfd9">
+  <img width="100" alt="ConvoCrafters Logo" src="0_Documents/Assets/ConvoCraftersLogo.png">
 
   Roselyn Rozario  ([@roselynrozario](https://github.com/roselynrozario))  
   Adela Cho  ([@Adelach0](https://github.com/Adelach0))  
