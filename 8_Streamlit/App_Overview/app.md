@@ -16,14 +16,14 @@ The Landing Page directs new students to "Register Here" and returning students 
 ### New Student Registration <a name="New-Student-Registration"></a>
 
 ##### [Register Here Page](https://github.com/Foroughmo/CogniEdu/blob/main/8_Streamlit/pages/1_Registration_Page.py) <a name="Register Here Page"></a>
-<p align="center">
-<img width="600" alt="Screenshot 2024-08-06 at 5 34 00 PM" src="https://github.com/user-attachments/assets/c4d90504-edbc-41a0-9a49-2296ba546e65">
+  <p align="center">
+  <img width="600" alt="Registration Page" src="https://github.com/Foroughmo/CogniEdu/blob/main/0_Documents/Assets/RegistrationPage.png">
 
 New students are directed to input their email address, full name, and password to create a new account.
 
 ##### [Integration Page](https://github.com/Foroughmo/CogniEdu/blob/main/8_Streamlit/pages/2_Integration_Page.py) <a name="Integration-Page"></a>
-<p align="center">
-<img width="600" alt="Screenshot 2024-08-06 at 5 34 47 PM" src="https://github.com/user-attachments/assets/0f7558ba-d2c6-4fbe-bb2b-3d18d648d596">
+  <p align="center">
+  <img width="600" alt="Integration Page" src="https://github.com/Foroughmo/CogniEdu/blob/main/0_Documents/Assets/IntegrationPage.png">
 
 Integration with external accounts are meant to occur in this page. New students integrate their Google Classroom and Google Calendar platforms.
 
@@ -49,8 +49,8 @@ Ed directs students to tailor their experience with CogniEdu! This is where stud
 Returning students are directed to input their email address and password to log back into their account.
 
 ##### Welcome Back! <a name="Welcome-Back!"></a>
-<p align="center">
-<img width="600" alt="Screenshot 2024-08-06 at 5 36 21 PM" src="https://github.com/user-attachments/assets/97b5ecd6-cb45-48ba-86b0-71435e95e2ab">
+  <p align="center">
+  <img width="600" alt="Welcome Back" src="https://github.com/Foroughmo/CogniEdu/blob/main/0_Documents/Assets/WelcomeBack.png">
 
 Returning students are shown a pop up welcoming them back to CogniEdu. 
 
