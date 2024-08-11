@@ -1,7 +1,7 @@
 <h1 align="center"> CogniEdu: AI-Powered Academic Planning for Student Success </h1>
 
 <p align="center">
-<img width="300" alt="Screenshot 2024-06-18 at 12 08 32 PM" src="https://github.com/user-attachments/assets/a96051c6-6110-489b-9ff9-5fde6e5402ed">
+<img width="300" alt="CogniEdu Logo" src="0_Documents/Assets/CogniEduLogo.png">
 </p>
 
 CogniEdu is an academic planning tool designed to help students effectively manage their academic schedules alongside other commitments.
@@ -50,7 +50,7 @@ CogniEdu is an academic planning tool designed to help students effectively mana
 
 # **🎯 Project Motivation** <a name="Project-Motivation"></a>
 <p align="center">
-<img width="300" alt="Screenshot 2024-08-06 at 5 23 52 PM" src="https://github.com/user-attachments/assets/d0c417e2-8c76-48de-a637-a6fc32184ce5">
+<img width="380" alt="Nick Ramen 1" src="0_Documents/Assets/NickRamen1.png">
 </p>
 The story begins with a hypothetical student, Nick Ramen. Nick, a college student, faces a common challenge: balancing the best college experience possible while maintaining good grades, a healthy sleep schedule, and a social life. However, he eventually overcommits and becomes overwhelmed, leading to a decline in grades and confusion on how to navigate his academic struggles.
 
@@ -146,7 +146,7 @@ Ed processes user queries through an iterative cycle of reasoning (using a Large
 Managing one's schedule effectively can often prove to be challenging. Ed sends email notifications with optimized calendar information to help users stay on track by extracting calendar data, formatting it into informative emails, and automating the process. Emails are securely sent by integrating with external email servers via Simple Mail Transfer Protocol (SMTP) and Secure Sockets Layer (SSL) for safe message transmission.
 
 <p align="center">
-<img width="200" alt="Screenshot 2024-06-18 at 12 08 32 PM" src="https://github.com/user-attachments/assets/64b48560-ff0e-40f6-9799-2719de11e769">
+<img width="200" alt="Ed" src="0_Documents/Assets/Ed.png">
 </p> 
 
 # 📊  Implementation Evaluation <a name="Implementation-Evaluation"></a>                                             
@@ -176,7 +176,7 @@ CogniEdu can be broken down into two process flows:
 
 ### Home Page <a name="Home-Page"></a>
   <p align="center">
-  <img width="600" alt="ConvoCraftersLogo.png" src="https://github.com/user-attachments/assets/a4d75f09-b690-4da2-a92a-2194cbd59da5">
+  <img width="600" alt="Home Page" src="0_Documents/Assets/HomePage.png">
 
 The Home Page includes the optimized calendar, a dedicated section for Ed, the student's friendly AI chatbot, and a view of the upcoming events. 
 * The calendar is set to a day view for focused viewing of the day's schedule with a red line and arrow indicating the current time.
@@ -185,7 +185,7 @@ The Home Page includes the optimized calendar, a dedicated section for Ed, the s
 
 ### Calendar Page <a name="Calendar-Page"></a> 
   <p align="center">
-  <img width="600" alt="Cal 4" src="https://github.com/user-attachments/assets/8a19a5b7-7bfe-4e1f-abea-ab90f0242319">
+  <img width="600" alt="Calendar Page" src="0_Documents/Assets/CalendarPage.png">
 
 The Calendar Page is the student's dedicated space to view a full week's optimized schedule. The event colors represent their source:
 * Light Blue: Student's Google Calendar Events
@@ -194,7 +194,7 @@ The Calendar Page is the student's dedicated space to view a full week's optimiz
 
 ### Ed, AI Chatbot Page <a name="Ed-AI-Chatbot-Page"></a> 
   <p align="center">
-  <img width="600" alt="Ed 2" src="https://github.com/user-attachments/assets/ec3c4fe4-14d5-44c2-ab5f-a4cbb709f131">
+  <img width="600" alt="Chatbot Page" src="0_Documents/Assets/ChatbotPage.png">
 
 The Ed, AI Chatbot Page allows for conversation pertaining to the student's course materials and their calendar. Recommended questions are provided to assist the student in making queries to Ed.
 
@@ -226,7 +226,7 @@ CogniEdu addresses a significant market need for academic planning and organizat
 
 # 🔚 Conclusion <a name="Conclusion"></a>
 <p align="center">
-<img width="380" alt="Screenshot 2024-08-06 at 8 16 15 PM" src="https://github.com/user-attachments/assets/40adf45a-bd13-4ce6-80aa-2cf9ea1c7df9">
+<img width="380" alt="Nick Ramen 2" src="0_Documents/Assets/NickRamen2.png">
 </p>
 
 Now that Nick is equipped with CogniEdu, he is able to integrate all his educational platforms, follow Ed's tailored study plans, and organize his course materials. Slowly but surely, Nick has become a happier college student, able to manage all his commitments and become more organized and motivated than ever as his academic performance improves.
