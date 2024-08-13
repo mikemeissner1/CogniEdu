@@ -1,7 +1,7 @@
 ## Overview
 CogniEdu can be broken down into two process flows:
-1. New Students: New students will complete an onboarding process to set up their profile with CogniEdu and integrate their accounts for information extraction. After this, they will be able to access their optimized calendar and converse with Ed.
-2. Returning Students: Returning students do not need to undergo the onboarding process. Once they input their credentials, they will be able to view their optimized calendar and converse with Ed.
+1. **New Students:** New students will complete an onboarding process to set up their profile with CogniEdu and integrate their accounts for information extraction. After this, they will be able to access their optimized calendar and converse with Ed.
+2. **Returning Students:** Returning students do not need to undergo the onboarding process. Once they input their credentials, they will be able to view their optimized calendar and converse with Ed.
 
 https://github.com/user-attachments/assets/7f5999bb-6809-43cd-9757-807c4d87f55f
 
