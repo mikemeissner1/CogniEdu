@@ -183,16 +183,16 @@ CogniEdu can be broken down into two process flows:
 The Home Page includes the optimized calendar, a dedicated section for Ed, the student's friendly AI chatbot, and a view of the upcoming events. 
 * The calendar is set to a day view for focused viewing of the day's schedule with a red line and arrow indicating the current time.
 * Upcoming events show the next 3 events, as well as relevant details pertaining to them.
-* Ed is located below to direct the student to utilize his AI Chatbot assistance.*
+* Ed is located below to direct the student to utilize his AI Chatbot assistance.
 
 ### Calendar Page <a name="Calendar-Page"></a> 
   <p align="center">
   <img width="600" alt="Calendar Page" src="0_Documents/Assets/CalendarPage.png">
 
 The Calendar Page is the student's dedicated space to view a full week's optimized schedule. The event colors represent their source:
-* Light Blue: Student's Google Calendar Events
-* Navy: Classes from Google Classroom
-* Pink: Ed's Optimizer Events
+* **Light Blue:** Student's Google Calendar Events
+* **Navy:** Classes from Google Classroom
+* **Pink:** Ed's Optimizer Events
 
 ### Ed, AI Chatbot Page <a name="Ed-AI-Chatbot-Page"></a> 
   <p align="center">
