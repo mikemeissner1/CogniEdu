@@ -28,7 +28,7 @@ CogniEdu is an academic planning tool designed to help students effectively mana
 
 6. [Streamlit Built User Interface](#Streamlit)
    * [CogniEdu App Overview](#CogniEdu-App-Overview)
-   * [Detailed Overview of CogniEdu](https://github.com/Foroughmo/CogniEdu/blob/main/8_Streamlit/App_Overview/app.md)
+   * [Detailed Overview of CogniEdu](https://github.com/Foroughmo/CogniEdu/blob/main/8_Streamlit/App_Overview/App.md)
    
 7. [Technical Challenges](#Technical-Challenges)
 
