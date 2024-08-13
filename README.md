@@ -103,9 +103,11 @@ The MySQL database also houses assignment information, such as due dates and ins
 The time estimation algorithm serves as the preliminary phase in preparing data for the optimizer. This process is executed in two steps utilizing Large Language Models (LLMs) through prompt engineering.
 
 **Step 1: Assignment Difficulty Level**
+
 The LLM evaluates the difficulty level of each assignment based on its content. Assignments are then categorized on a scale of easy, medium, or hard. These qualitative scales are converted into numerical values and stored accordingly.
 
 **Step 2: Time Estimation**
+
 Based on the assignment's content and its assigned difficulty level, the LLM estimates the time required to complete the assignment. Once the time estimation is determined, it is provided to the optimizer to create an optimized study plan.
 
 <h5 align="center"> Time Estimation LLM </h5>
@@ -124,11 +126,11 @@ Leveraging Gemini’s advanced reasoning capabilities, our application generates
 ### [💬 Ed: Our Conversational AI Agent](https://github.com/Foroughmo/CogniEdu/tree/main/4_Chatbot) <a name="Ed"></a> 
 CogniEdu's chatbot, Ed, is built on the ReAct (Reasoning and Acting) paradigm, leveraging LangGraph to create a dynamic, multi-tool agent. The system employs three key capabilities:
 
-1. PDF Retrieval-Augmented Generation (RAG): This tool accesses and queries students' Google Classroom materials, providing efficient and relevant information from course documents.
+1. **PDF Retrieval-Augmented Generation (RAG):** This tool accesses and queries students' Google Classroom materials, providing efficient and relevant information from course documents.
 
-2. Calendar Interaction: A dedicated tool enables conversational access to the student's personal and academic calendar, allowing for schedule queries and management.
+2. **Calendar Interaction:** A dedicated tool enables conversational access to the student's personal and academic calendar, allowing for schedule queries and management.
 
-3. Web Search Integration: Utilizing Tavily, the agent can fetch external resources to supplement course materials and provide additional learning support.
+3. **Web Search Integration:** Utilizing Tavily, the agent can fetch external resources to supplement course materials and provide additional learning support.
 
 <h5 align="center"> ReAct Framework </h5>
 <p align="center">
@@ -169,8 +171,8 @@ https://github.com/user-attachments/assets/7f5999bb-6809-43cd-9757-807c4d87f55f
 
 CogniEdu can be broken down into two process flows:
 
-1. New Students: New students will complete an onboarding process to set up their profile with CogniEdu and integrate their accounts for information extraction. After this, they will be able to access their optimized calendar and converse with Ed.
-2. Returning Students: Returning students do not need to undergo the onboarding process. Once they input their credentials, they will be able to view their optimized calendar and converse with Ed.
+1. **New Students:** New students will complete an onboarding process to set up their profile with CogniEdu and integrate their accounts for information extraction. After this, they will be able to access their optimized calendar and converse with Ed.
+2. **Returning Students:** Returning students do not need to undergo the onboarding process. Once they input their credentials, they will be able to view their optimized calendar and converse with Ed.
    
 > Detailed Overview of CogniEdu: [Click Here](https://github.com/Foroughmo/CogniEdu/blob/main/8_Streamlit/App_Overview/app.md)
 
