@@ -50,7 +50,7 @@ CogniEdu is an academic planning tool designed to help students effectively mana
 
 13. [Acknowledgements/About Us](#Acknowledgements)
 
-> Project Repository Structure: [Click Here](0_Documents/Respository_Structure.md)
+> Repository Structure: [Click Here](0_Documents/Respository_Structure.md)
 
 # **🎯 Project Motivation** <a name="Project-Motivation"></a>
 <p align="center">
