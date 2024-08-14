@@ -6,6 +6,10 @@
 
 CogniEdu is an academic planning tool designed to help students effectively manage their academic schedules alongside other commitments.
 
+<p align="center">
+<img width="450" alt="Honorable Mention" src="0_Documents/Assets/HonorableMention.png">
+</p>
+
 # **📑 Table of Contents**
 
 1. [Project Motivation](#Project-Motivation)
@@ -46,7 +50,7 @@ CogniEdu is an academic planning tool designed to help students effectively mana
 
 13. [Acknowledgements/About Us](#Acknowledgements)
 
-> Repository Structure: [Click Here](0_Documents/Respository_Structure.md)
+> Project Repository Structure: [Click Here](0_Documents/Respository_Structure.md)
 
 # **🎯 Project Motivation** <a name="Project-Motivation"></a>
 <p align="center">
