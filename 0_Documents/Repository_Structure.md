@@ -1,4 +1,4 @@
-## Project Repository Structure
+## Repository Structure
     .
     ├── 0_Documents             # Documents for Project (e.g., Pictures, Repository Structure)
     ├── 1_SQL_Database          # Code Pertaining to SQL Database
