@@ -22,8 +22,8 @@ CogniEdu is an academic planning tool designed to help students effectively mana
    * [Onboarding Experience](#Onboarding-Experience)      
    * [Database Management with SQL](#Database)
    * [Time Estimations by LLM for Optimizer Algorithm](#Time)   
-   * [Optimizing Student’s Study Time with Heuristic Algorithm and Gemini](#Optimizing)
-   * [Ed: Our Conversational AI RAG Application Utilizing Langraph](#Ed) 
+   * [Optimized Scheduling via Heuristics and LLM Prompting](#Optimizing)
+   * [Ed: Our Conversational AI Agent](#Ed) 
    * [Proactive Alerts for On Task Management](#Notifications)
       
 4. [Implementation Evaluation](#Implementation-Evaluation)
